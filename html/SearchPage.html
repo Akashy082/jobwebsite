@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Search</title>
+    <link href="../css/search.css" rel="stylesheet">
+    <script src="../timer.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+    <div id="login-form">
+    <h2>Candidate Search</h2>
+    <label for="location"><h4>Location:</h4></label>
+    <input type="text" id="location" placeholder="Enter location">
+    <br>
+    <label for="role"><h4>Job Role:</h4></label>
+    <input type="text" id="role" placeholder="Enter job role">
+    <br>
+    <button onclick="searchCandidates()">Search</button></div>
+    </div>
+    <hr>
+    <div>
+    <h2>Search Results:</h2>
+    <ul id="candidateList" class="candidate-list"></ul>
+    </div>
+</body>
+</html>
